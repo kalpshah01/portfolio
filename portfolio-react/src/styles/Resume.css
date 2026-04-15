@@ -1,0 +1,128 @@
+/* Resume and Education Section */
+.resume {
+  padding: 60px 0;
+  background-color: white;
+  text-align: center;
+}
+
+.resume .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.resume h2 {
+  font-size: 36px;
+  color: #667eea;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.resume > .container > p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.resume a {
+  text-decoration: none;
+}
+
+.my-education {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.my-education .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main h2 {
+  font-size: 32px;
+  color: #667eea;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.main .paragrph {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.exp {
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.certificate {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  border-left: 5px solid #667eea;
+}
+
+.certificate .he {
+  font-size: 20px;
+  color: #333;
+  margin: 0 0 10px 0;
+  font-weight: 600;
+}
+
+.certificate .sp {
+  display: block;
+  color: #667eea;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.certificate span {
+  display: block;
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.certificate .hr {
+  margin: 15px 0;
+  border: 1px solid #eee;
+  border-bottom: none;
+}
+
+.certificate .paragrph {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.hr {
+  border: 1px solid #eee;
+  border-bottom: none;
+  margin: 30px 0;
+}
+
+@media (max-width: 768px) {
+  .exp {
+    grid-template-columns: 1fr;
+  }
+
+  .main h2 {
+    font-size: 26px;
+  }
+
+  .certificate .he {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,56 @@
+/* About Section */
+.about-me {
+  padding: 80px 0;
+  background-color: white;
+}
+
+.containerB {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.about-me .image {
+  text-align: center;
+}
+
+.about-me .image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  max-height: 400px;
+}
+
+.about-me .info h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #667eea;
+  font-weight: 700;
+}
+
+.about-me .info p {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .containerB {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .about-me .info h2 {
+    font-size: 28px;
+  }
+
+  .about-me .image img {
+    max-height: 300px;
+  }
+}
